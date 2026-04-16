@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WeeklyGoalsActivity">
+    tools:context=".NutritionActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -122,6 +122,14 @@
                     android:layout_height="wrap_content"
                     android:text="Oats with milk and fruits."
                     android:textColor="#475569"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rewardAd"
+                    android:text="Get Reward"
+                    android:textSize="32sp"
+                    android:backgroundTint="#9C27B0" />
 
             </LinearLayout>
 
